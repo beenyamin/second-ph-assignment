@@ -7,17 +7,18 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
  /* nav seciton start  */
 
 .gamar{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     padding: 20px 120px;
 }
 
@@ -50,8 +51,8 @@ body{
     margin-right: 20px;
     list-style: none;
     color: #3C354F;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 700;
 
 }
 
@@ -64,9 +65,9 @@ body{
     display: flex;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    width: 180px;
+    width: 150px;
     height: 15px;
-    padding: 20px 20px;
+    padding: 10px 20px;
     gap: 20px;
 
 }
@@ -76,13 +77,13 @@ body{
 
 .banner-section{
 
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-position: left;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 120px;
+    padding: 30px 180px;
 
 
 }
@@ -92,35 +93,29 @@ body{
 
 .banner-section img{
     width:300px;
-
- 
  
 }
 
 .banner-line-1{
+    padding: 100px 70px;
 
-    width:300px;
-    /* background-image: url("/images/background.png");
-    background-repeat: no-repeat;
-    background-position: left; */
-   
 }
 
 
-
 .banner-line-1 h3{
+
     color: #0B0223;
     padding: 5px;
     font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     text-transform: uppercase; 
 }
 
 
 .banner-line-1 h1{
-    font-size: 50px;
-    font-weight: 800px;
+    font-size: 90px;
+    font-weight: 850px;
     font-family: Work Sans;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -131,9 +126,10 @@ body{
 }
 
 .banner-line-1 p{
+
     color: #534C64;
     font-family: Work Sans;
-   padding-left: 10px;
+     padding-left: 10px ;
 
 }
 
@@ -149,24 +145,25 @@ body{
     padding: 10px 20px;
     border: 0;
     font-family: Work Sans;
-    font-size:10px;
+    font-size:12px;
     text-transform: uppercase;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: #FF42A5 ;
     color: #FFF;
+
 }
 
 .btn-praimary-2{
+
     border-radius: 60px;
     padding: 10px 20px;
     border: 0;
     font-family: Work Sans;
-    font-size:10px;
+    font-size:12px;
     text-transform: uppercase;
     background: #4EC5F7;
     color: #FFF;
 
 }
-
 
 
 
@@ -277,7 +274,7 @@ body{
 
 .horse-img img{
     width: 400px;
-    height:375px;
+    height:420px;
    border-radius: 5px;
 
 }
@@ -293,9 +290,19 @@ body{
   
 }
 
-.horse-up img{
+.horse-up-pic{
+
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+    margin-left: 580px ; 
+
+}
+
+.horse-up-pic img{
+  
     width: 130px;
-   margin-left: 580px ;
+   height: 140px ;
 
 }
 
@@ -391,8 +398,9 @@ body{
 
 
  .footer-first-list{
-    margin: 0px 0px;
 
+    padding: 0px 50px;
+  
  }
  .footer-first-list ul {
     margin: 0px 60px 20px 60px;
