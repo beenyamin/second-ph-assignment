@@ -15,9 +15,10 @@ body{
 
 .gamar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    
+    padding: 20px 120px;
 }
 
 .gamar span {
@@ -26,7 +27,7 @@ body{
 }
 
 .logo-titel img{
-    
+
     padding : 0px 0px 0px 50px;
 
 
@@ -217,8 +218,8 @@ body{
 .gamer-picture-container{
     width:150px;
     height: 250px;
-    margin-top: 80px;
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left:230px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
@@ -358,8 +359,55 @@ body{
 
  .first-icon-bar:hover{
     border: 1px solid sandybrown;
-    border-radius: 60px;
+    border-radius: 60px; 
  }
+
+
+
+ /* footer section */
+
+ .footer-pic{
+    margin: 100px 500px ;
+    display: flex;
+   align-items: center;
+
+
+ }
+
+ .footer-pic img{
+
+    width: 50px;
+    margin-right: 10px;
+
+ }
+
+ .footer-pic span{
+
+     color: #FF42A5 ;
+
+ }
+
+
+ .footer-first-list{
+
+ }
+ .footer-first-list ul {
+
+    margin: 0px 80px 20px 80px;
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* justify-content: center;
+    align-items: center;
+    text-decoration: none; */
+
+ }
+
+ .footer-first-list li{
+   
+ }
+
 
 
 
