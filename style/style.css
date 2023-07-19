@@ -27,12 +27,7 @@ body{
 }
 
 .logo-titel img{
-
     padding : 0px 0px 0px 50px;
-
-
-
-
 }
 
 
@@ -292,9 +287,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-
 
 .horse-up{
   
@@ -321,12 +314,11 @@ body{
 
  .icon-with-btn-container{
     margin-bottom: 200px;
-   margin: 200px 150px;
+    margin: 20px 150px;
    display: grid;
    grid-template-columns: repeat(5, 1fr);
    gap: 10px;
    background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);;
- 
  
 
  }
@@ -338,12 +330,9 @@ body{
     height: 48px;
     display: flex;
     align-items: center;
-    padding: 9px 9px 9px 9px;
+    padding: 9px 20px 9px 20px;
     border-radius:60px;
-    background-color: ;
-
-
-
+    background-color: whitesmoke;
 
  }
 
@@ -364,51 +353,105 @@ body{
 
 
 
- /* footer section */
+ /* footer section  start*/
+
+ .footer{
+    background: black;
+
+ }
 
  .footer-pic{
-    margin: 100px 500px ;
+
+    margin:100px 500px ;
     display: flex;
    align-items: center;
+   padding-top: 100px;
+
 
 
  }
 
  .footer-pic img{
 
-    width: 50px;
+    width: 40px;
     margin-right: 10px;
+    margin-bottom: 0px;
 
  }
 
- .footer-pic span{
-
-     color: #FF42A5 ;
-
- }
-
-
- .footer-first-list{
-
- }
- .footer-first-list ul {
-
-    margin: 0px 80px 20px 80px;
-
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    /* justify-content: center;
-    align-items: center;
-    text-decoration: none; */
-
- }
-
- .footer-first-list li{
+ .footer-pic h2{
+    color: #FFF;
    
  }
 
 
+ .footer-pic span{
+     color: #FF42A5 ;
+ }
+
+
+ .footer-first-list{
+    margin: 0px 0px;
+
+ }
+ .footer-first-list ul {
+    margin: 0px 60px 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+   
+
+ }
+
+ .footer-first-list li{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+
+ }
+
+ .socail-icon{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+ .socail-icon li {
+    list-style: none;
+    padding: 15px;
+ }
+
+
+ .footer-second-list{
+    display: flex;
+    justify-content: center ;
+
+
+ }
+
+ .footer-second-list li{
+    color: #FFF;
+    list-style: none;
+    padding: 15px;
+    font-size: 10px;
+
+ }
+
+ .footer-second-copyright{
+    display: flex;
+    justify-content: center ;
+
+
+ }
+ .footer-second-copyright p {
+    color: #FFF;
+    padding: 15px;
+    font-size: 10px;
+ }
 
 
 
