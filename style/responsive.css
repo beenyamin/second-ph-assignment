@@ -33,19 +33,35 @@
     }
 
 
-    .forth-item-container{
+    .fourth-pic-container{
 
-        width: 50%;
-       flex-direction: column;
-       padding: 0px 60px 0px 0px;
-    }
+        grid-template-columns: none;
+      
    
+   }
+   
+   
+    .group-pic{
+        grid-template-columns: 1fr;
+
+        
+
+    }
+
+
 
     .horse-container{
 
      flex-direction: column; 
 
     }
+
+    .icon-with-btn-container{
+        grid-template-columns: max-content;
+
+    }
+
+
 
     
 
@@ -90,16 +106,19 @@
         }
 
 
-        .forth-item-container{
-            flex-direction: column;
-            padding: 0px 0px 0px 30px;
-         }
+    
 
 
          .horse-container{
 
             flex-direction: column; 
        
+           }
+
+           .footer-container{
+
+            flex-direction: column; 
+
            }
        
         
