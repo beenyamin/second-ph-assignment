@@ -3,32 +3,32 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500&family=Work+Sans:wght@400;600;700;800&display=swap');
+
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
  /* nav seciton start  */
 
-.gamar{
+ .gamar-container{
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 120px;
+    padding: 20px 130px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.gamar span {
+.gamar-container span {
     color: #F948B2;
-
-}
-
-.logo-titel img{
-    padding : 0px 0px 0px 50px;
+  
 }
 
 
@@ -37,17 +37,17 @@ body{
     margin-right: 10px;
 }
 
-.gamer-item ul{
+.gamer-item-container ul{
 
     display: flex;
     align-items: center;
     justify-items: center;
 }
 
-.gamer-item a{
+.gamer-item-container a{
     text-decoration: none;
 }
-.gamer-item li{
+.gamer-item-container li{
     margin-right: 20px;
     list-style: none;
     color: #3C354F;
@@ -69,38 +69,33 @@ body{
     height: 15px;
     padding: 10px 20px;
     gap: 20px;
-
 }
 
+/* nav section end */
 
-/* <!-- banner section --> */
+
+
+/* banner section start */
+
 
 .banner-section{
-
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 180px;
-
-
-}
-
-
-
-
-.banner-section img{
-    width:300px;
  
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
 }
+
+.banner-container{
+
+
+}
+
 
 .banner-line-1{
-    padding: 100px 70px;
 
+  
 }
-
 
 .banner-line-1 h3{
 
@@ -127,16 +122,19 @@ body{
 
 .banner-line-1 p{
 
+    margin-top: 5px;
     color: #534C64;
     font-family: Work Sans;
-     padding-left: 10px ;
+    padding-left: 10px ;
 
 }
 
-.banner-line-1 button{
-
+.banner-picture img{
+  width: 400px;
+  height: 500px;
 
 }
+
 
 .btn-praimary-1{
 
@@ -145,10 +143,11 @@ body{
     padding: 10px 20px;
     border: 0;
     font-family: Work Sans;
-    font-size:12px;
     text-transform: uppercase;
     background: #FF42A5 ;
     color: #FFF;
+    font-size:11px;
+    font-weight: 900;
 
 }
 
@@ -158,13 +157,16 @@ body{
     padding: 10px 20px;
     border: 0;
     font-family: Work Sans;
-    font-size:12px;
     text-transform: uppercase;
     background: #4EC5F7;
     color: #FFF;
+    font-size:11px;
+    font-weight: 900;
 
 }
 
+
+/* banner section end */
 
 
 /* <!-- online-game-section start --> */
@@ -458,9 +460,5 @@ body{
     padding: 15px;
     font-size: 10px;
  }
-
-
-
-
 
 
